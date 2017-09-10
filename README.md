@@ -9,7 +9,7 @@ Add `phoenix_open_browser` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:phoenix_open_browser, "~> 0.1.0", only: :dev}
+    {:phoenix_open_browser, "~> 0.1.1", only: :dev}
   ]
 end
 ```
