@@ -16,13 +16,13 @@ defmodule PhoenixOpenBrowser do
   end
 
   defp open_browser(uri) do
-    start_executable = start_executable()
+    start_command = start_command()
 
-    if System.find_executable(start_executable),
-      do: System.cmd(start_executable, [uri])
+    if System.find_executable(start_command),
+      do: System.cmd(start_command, [uri])
   end
 
-  defp start_executable do
+  defp start_command do
     case :os.type() do
       {:win32, _} ->
         "start"

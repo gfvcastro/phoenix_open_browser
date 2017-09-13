@@ -9,14 +9,12 @@ defmodule PhoenixOpenBrowser.Mixfile do
       deps: deps(),
       package: package(),
       name: "PhoenixOpenBrowser",
-      description: "Opens Phoenix application in system's default browser after boot server"
+      description: "Opens a Phoenix application in system's default browser after boot server"
     ]
   end
 
   def application do
-    [
-      applications: [:logger]
-    ]
+    []
   end
 
   defp deps do
