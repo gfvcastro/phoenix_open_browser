@@ -7,7 +7,7 @@ A module that opens a Phoenix application in the system default browser after bo
 Add `phoenix_open_browser` to your list of dependencies in your `mix.exs`:
 
 ```elixir
-{:phoenix_open_browser, "~> 0.1.2", only: :dev}
+{:phoenix_open_browser, "~> 0.1.3", only: :dev}
 ```
 
 And then execute:
