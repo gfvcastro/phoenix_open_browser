@@ -5,11 +5,12 @@ defmodule PhoenixOpenBrowser.Mixfile do
     [
       app: :phoenix_open_browser,
       version: "0.1.2",
-      elixir: "~> 1.3",
+      elixir: "~> 1.7",
       deps: deps(),
       package: package(),
       name: "PhoenixOpenBrowser",
-      description: "Opens a Phoenix application in system's default browser after boot server"
+      description:
+        "A module that opens a Phoenix application in the system default browser after boot server"
     ]
   end
 
